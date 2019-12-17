@@ -6,10 +6,9 @@ See LICENCE.txt for licensing and contact information.
 
 import os
 import platform
-from distutils.extension import Extension
 
 import numpy
-from setuptools import setup
+from setuptools import setup, Extension, Command
 
 from opendr.version import version
 
