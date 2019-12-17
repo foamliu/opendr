@@ -59,3 +59,4 @@ contexts/_functions.pyx
 contexts/ctx_mac.c
 contexts/ctx_mesa.c
 venv
+.idea
