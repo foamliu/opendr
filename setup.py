@@ -36,6 +36,7 @@ def download_osmesa():
     import os, re, zipfile
     from opendr.utils import wget
     mesa_dir = os.path.join(context_dir, 'OSMesa')
+    print('mesa_dir: ' + mesa_dir)
     if not os.path.exists(mesa_dir):
         sysinfo = platform.uname()
         osmesa_fname = 'OSMesa.%s.%s.zip' % (sysinfo[0], sysinfo[-2])
